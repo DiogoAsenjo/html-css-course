@@ -1,23 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <h1>HTML and CSS course</h1>;
+      <p>
+        I will use this repo and this React project as part of my HTML and CSS
+        studies. I already have some basic knowledge. Right know I consider
+        myself at least a junior backend developer, but my frontend abilities
+        are grose, so I will create this project do develop my skills!
+      </p>
+      ;
     </div>
   );
 }
