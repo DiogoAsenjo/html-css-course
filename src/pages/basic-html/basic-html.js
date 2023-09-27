@@ -1,5 +1,6 @@
 import { Main } from "../styled-components/main";
 import image from "../../assets/images/basic-html/learn.png";
+import Footer from "../../components/footer/footer";
 
 function Basic() {
   return (
@@ -108,7 +109,7 @@ function Basic() {
           you
         </p>
       </article>
-      <footer>My footer is here!</footer>
+      <Footer />
     </Main>
   );
 }
