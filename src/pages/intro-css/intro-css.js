@@ -1,9 +1,11 @@
-import image from "../../assets/images/intro-css/declaration.PNG";
+import image from "../../assets/images/intro-css/declaration.png";
 import inlineCSS from "../../assets/images/intro-css/inline-css.PNG";
 import inlineCSSReact from "../../assets/images/intro-css/inline-css-react.PNG";
 import internalCSS from "../../assets/images/intro-css/internal-css.PNG";
 import externalPure from "../../assets/images/intro-css/external-css.PNG";
 import externalReact from "../../assets/images/intro-css/external-css-react.PNG";
+import classes from "../../assets/images/intro-css/class-id.PNG";
+import classesInCSS from "../../assets/images/intro-css/class-id-css.PNG";
 import Footer from "../../components/footer/footer";
 import "./intro-css.css";
 
@@ -19,7 +21,7 @@ function IntroCSS() {
           how we do it?
         </p>
         <h2>Selecting and styling elements</h2>
-        <img src={image} alt="CSS being used" width="500" height="300" />
+        <img src={image} alt="CSS being used" width="310" height="262" />
         <p>
           It does work something like the image above!
           <br />
@@ -71,6 +73,19 @@ function IntroCSS() {
             </li>
           </ol>
         </ul>
+        <h2>Classes and id's</h2>
+        <p>
+          To make you life easier, there's two ways to simplify your CSS
+          styling, you can give the tag and ID or a Class, it should look
+          something like this:
+          <br />
+          This is how we declare id or classes, importante note, we can't have
+          more than 1 id with the same name, id is unique:
+          <img src={classes} alt="" />
+          <br />
+          This is style them in CSS:
+          <img src={classesInCSS} alt="" />
+        </p>
       </article>
       <Footer />
     </div>
