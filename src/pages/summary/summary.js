@@ -1,10 +1,13 @@
+import { Main } from "../styled-components/main";
+import { Link } from "react-router-dom";
 import "./summary.css";
 
 function Summary() {
   return (
-    <div>
+    <Main>
       <h1>Here you can check all the topics that I already learned:</h1>
-    </div>
+      <Link to="/basic-html">Basic HTML</Link>
+    </Main>
   );
 }
 
