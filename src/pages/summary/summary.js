@@ -6,7 +6,16 @@ function Summary() {
   return (
     <Main>
       <h1>Here you can check all the topics that I already learned:</h1>
-      <Link to="/basic-html">Basic HTML</Link>
+      <nav>
+        <ul>
+          <li>
+            <Link to="/basic-html">Basic HTML</Link>
+          </li>
+          <li>
+            <Link to="/intro-css">Intro for CSS</Link>
+          </li>
+        </ul>
+      </nav>
     </Main>
   );
 }

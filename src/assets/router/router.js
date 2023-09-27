@@ -2,6 +2,7 @@ import { HashRouter, Route, Routes } from "react-router-dom";
 import Homepage from "../../pages/homepage/homepage";
 import Summary from "../../pages/summary/summary";
 import Basic from "../../pages/basic-html/basic-html";
+import IntroCSS from "../../pages/intro-css/intro-css";
 
 const Router = () => {
   return (
@@ -10,6 +11,7 @@ const Router = () => {
         <Route index element={<Homepage />} />
         <Route path="/summary" element={<Summary />} />
         <Route path="/basic-html" element={<Basic />} />
+        <Route path="/intro-css" element={<IntroCSS />} />
       </Routes>
     </HashRouter>
   );

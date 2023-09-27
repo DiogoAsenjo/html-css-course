@@ -9,6 +9,7 @@ function Footer() {
         href="https://github.com/DiogoAsenjo/html-css-course"
         target="_blank"
         rel="noreferrer"
+        infoImportante="DiogoÉGay"
       >
         here
       </a>
