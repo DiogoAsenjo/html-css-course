@@ -1,4 +1,3 @@
-import { Main } from "../styled-components/main";
 import image from "../../assets/images/intro-css/declaration.PNG";
 import inlineCSS from "../../assets/images/intro-css/inline-css.PNG";
 import inlineCSSReact from "../../assets/images/intro-css/inline-css-react.PNG";
@@ -10,7 +9,7 @@ import "./intro-css.css";
 
 function IntroCSS() {
   return (
-    <Main>
+    <div className="intro-css">
       <header>
         <h1>Basic knowledge for CSS</h1>
       </header>
@@ -24,9 +23,10 @@ function IntroCSS() {
         <p>
           It does work something like the image above!
           <br />
-          First um select the tag or the class that you want to manipulate, then
-          you open {"{ }"} and put all the properties and values for the
-          selected element.
+          First um select the tag or the class that you want to manipulate, you
+          can put more than one class, just separate then with a comma, then you
+          open {"{ }"} and put all the properties and values for the selected
+          element.
         </p>
         <h2>Inline, internal and external CSS</h2>
         <ul>
@@ -73,7 +73,7 @@ function IntroCSS() {
         </ul>
       </article>
       <Footer />
-    </Main>
+    </div>
   );
 }
 

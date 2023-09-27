@@ -4,7 +4,7 @@ function Footer() {
   return (
     <footer>
       This notebook was created by: Diogo Asenjo. You can check the complete
-      repo
+      repo{" "}
       <a
         href="https://github.com/DiogoAsenjo/html-css-course"
         target="_blank"

@@ -1,10 +1,10 @@
-import { Main } from "../styled-components/main";
 import image from "../../assets/images/basic-html/learn.png";
 import Footer from "../../components/footer/footer";
+import "./basic-html.css";
 
 function Basic() {
   return (
-    <Main>
+    <div>
       <header>
         <h1>Basic fundamentals for HTML</h1>
       </header>
@@ -110,7 +110,7 @@ function Basic() {
         </p>
       </article>
       <Footer />
-    </Main>
+    </div>
   );
 }
 

@@ -1,10 +1,9 @@
-import { Main } from "../styled-components/main";
 import "./homepage.css";
 import { Link } from "react-router-dom";
 
 function Homepage() {
   return (
-    <Main>
+    <div>
       <h1>HTML and CSS Notebook</h1>;
       <p>
         I will use this repo and this React project as part of my HTML and CSS
@@ -13,7 +12,7 @@ function Homepage() {
         are grose, so I will create this project to develop my skills!
       </p>
       <Link to="/summary">Summary</Link>
-    </Main>
+    </div>
   );
 }
 

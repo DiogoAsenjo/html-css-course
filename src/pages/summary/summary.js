@@ -1,10 +1,9 @@
-import { Main } from "../styled-components/main";
 import { Link } from "react-router-dom";
 import "./summary.css";
 
 function Summary() {
   return (
-    <Main>
+    <div>
       <h1>Here you can check all the topics that I already learned:</h1>
       <nav>
         <ul>
@@ -16,7 +15,7 @@ function Summary() {
           </li>
         </ul>
       </nav>
-    </Main>
+    </div>
   );
 }
 
