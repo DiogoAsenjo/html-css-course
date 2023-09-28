@@ -42,8 +42,10 @@ function IntroCSS() {
           <br />
           This is how we declare id or classes:
           <br />
-          <img src={classes} alt="Naming classes or id" />
+          We also have pseudoclasses that we can use in specific situations with
+          commands like first-child, nth-child{"()"}, etc. using
         </p>
+        <img src={classes} alt="Naming classes or id" />
         <h2>Inline, internal and external CSS</h2>
         <p>
           There's multiple ways to style CSS, the inline, the internal and the

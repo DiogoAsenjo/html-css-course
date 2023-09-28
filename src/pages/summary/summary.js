@@ -14,7 +14,7 @@ function Summary() {
             <Link to="/intro-css">Intro for CSS</Link>
           </li>
           <li>
-            <Link to="/css-text">Using CSS to style Text</Link>
+            <Link to="/css-text">Using CSS to style Texts and Links</Link>
           </li>
           <li>
             <Link to="/css-colors">Using CSS to style Colors</Link>
