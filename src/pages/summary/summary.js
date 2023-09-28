@@ -16,6 +16,9 @@ function Summary() {
           <li>
             <Link to="/css-text">Using CSS to style Text</Link>
           </li>
+          <li>
+            <Link to="/css-colors">Using CSS to style Colors</Link>
+          </li>
         </ul>
       </nav>
     </div>

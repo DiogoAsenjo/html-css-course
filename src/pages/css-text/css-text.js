@@ -1,4 +1,5 @@
 import properties from "../../assets/images/css-text/properties-text.png";
+import "./css-text.css";
 
 function CSSText() {
   return (
