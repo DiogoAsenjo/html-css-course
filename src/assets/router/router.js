@@ -5,6 +5,7 @@ import Basic from "../../pages/basic-html/basic-html";
 import IntroCSS from "../../pages/intro-css/intro-css";
 import CSSText from "../../pages/css-text/css-text";
 import CSSColors from "../../pages/css-colors/css-colors";
+import BorderMarginPadding from "../../pages/border-margin-padding/border-margin-padding";
 
 const Router = () => {
   return (
@@ -16,6 +17,10 @@ const Router = () => {
         <Route path="/intro-css" element={<IntroCSS />} />
         <Route path="/css-text" element={<CSSText />} />
         <Route path="/css-colors" element={<CSSColors />} />
+        <Route
+          path="/border-margin-padding"
+          element={<BorderMarginPadding />}
+        />
       </Routes>
     </HashRouter>
   );
