@@ -13,6 +13,9 @@ function Summary() {
           <li>
             <Link to="/intro-css">Intro for CSS</Link>
           </li>
+          <li>
+            <Link to="/css-text">Using CSS to style Text</Link>
+          </li>
         </ul>
       </nav>
     </div>

@@ -1,12 +1,11 @@
-import image from "../../assets/images/intro-css/declaration.png";
-import inlineCSS from "../../assets/images/intro-css/inline-css.PNG";
-import inlineCSSReact from "../../assets/images/intro-css/inline-css-react.PNG";
-import internalCSS from "../../assets/images/intro-css/internal-css.PNG";
-import externalPure from "../../assets/images/intro-css/external-css.PNG";
-import externalReact from "../../assets/images/intro-css/external-css-react.PNG";
-import classes from "../../assets/images/intro-css/class-id.PNG";
-import classesInCSS from "../../assets/images/intro-css/class-id-css.PNG";
+import inline from "../../assets/images/intro-css/inline.png";
+import internal from "../../assets/images/intro-css/internal.png";
+import external from "../../assets/images/intro-css/external.png";
+import classes from "../../assets/images/intro-css/class-id.png";
 import Footer from "../../components/footer/footer";
+import styleElement from "../../assets/images/intro-css/style-element.png";
+import styleId from "../../assets/images/intro-css/style-id.png";
+import styleClass from "../../assets/images/intro-css/style-class.png";
 import "./intro-css.css";
 
 function IntroCSS() {
@@ -21,71 +20,71 @@ function IntroCSS() {
           how we do it?
         </p>
         <h2>Selecting and styling elements</h2>
-        <img src={image} alt="CSS being used" width="310" height="262" />
         <p>
-          It does work something like the image above!
+          We need to select an element, a class or an id, open {"{ }"} and put
+          all the properties and the values that we want!
           <br />
-          First um select the tag or the class that you want to manipulate, you
-          can put more than one class, just separate then with a comma, then you
-          open {"{ }"} and put all the properties and values for the selected
-          element.
+          In the next sections of my notebook we will talk more about those
+          properties and values, so keep up with your studies.
+          <br />
+          Here are some examples of how we can do it:
+        </p>
+        <img src={styleElement} alt="CSS being used with element" />
+        <img src={styleClass} alt="CSS being used with class" />
+        <img src={styleId} alt="CSS being used with id" />
+        <h2>Classes and id's</h2>
+        <p>
+          We talked about classes, elements and id, but what exactly are these?
+          <br />
+          Elements are simple HTML tags, classes and id are something that we
+          can declare inside of the HTML tag, in real world we almost never use
+          id, because it can only be used once.
+          <br />
+          This is how we declare id or classes:
+          <br />
+          <img src={classes} alt="Naming classes or id" />
         </p>
         <h2>Inline, internal and external CSS</h2>
+        <p>
+          There's multiple ways to style CSS, the inline, the internal and the
+          external. Usually we just just external one, but here we'll see all
+          the types
+        </p>
         <ul>
           <li>Inline</li>
           <p>
             We can use inline CSS by giving a propertie to a HTML tag, like
             these:
           </p>
-          <ol>
-            <li>
-              Pure CSS <img src={inlineCSS} alt="Inline with CSS pure" />
-            </li>
-            <li>
-              In React <img src={inlineCSSReact} alt="Inline with React" />
-            </li>
-          </ol>
+          <br />
+          <img src={inline} alt="Inline CSS" />
           <p>We should never use CSS inline, but it's good to know!</p>
           <li>Internal</li>
           <p>
             We can use internal by putting the tag styles inside of the head of
             the HTML document, like here:
           </p>
-          <ol>
-            <li>
-              <img src={internalCSS} alt="Interncal CSS" />
-            </li>
-          </ol>
+          <img src={internal} alt="Interncal CSS" />
           <p>
             As CSS codes can get really big, we also almost never uses this, the
             last one is actually the most used
           </p>
           <li>External</li>
-          <p>We create a external CSS file and link with the HTML.</p>
-          <ol>
-            <li>
-              In pure HTML/CSS we should use the tag link, like this:{" "}
-              <img src={externalPure} alt="External CSS in pure HTML/CSS" />
-            </li>
-            <li>
-              In React we just import the file, like this:{" "}
-              <img src={externalReact} alt="External CSS in pure HTML/CSS" />
-            </li>
-          </ol>
+          <p>
+            Last and most important, is the external way. We create a external
+            CSS file and link with the HTML file, this is by far the most used
+            way, this is how you can link those two documents:
+          </p>
+          <br />
+          <img src={external} alt="External CSS" />
+          <p>
+            Importante note: this is the most popular way of using CSS, but
+            there's actually of ways of doing it, you have CSS framewokrs like
+            Tailwind and Bootstrap, there's also libs to include your CSS in a
+            JS file like styled-components, but thees are topic for other
+            leassons.
+          </p>
         </ul>
-        <h2>Classes and id's</h2>
-        <p>
-          To make you life easier, there's two ways to simplify your CSS
-          styling, you can give the tag and ID or a Class, it should look
-          something like this:
-          <br />
-          This is how we declare id or classes, importante note, we can't have
-          more than 1 id with the same name, id is unique:
-          <img src={classes} alt="" />
-          <br />
-          This is style them in CSS:
-          <img src={classesInCSS} alt="" />
-        </p>
       </article>
       <Footer />
     </div>
