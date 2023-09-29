@@ -1,0 +1,35 @@
+.el1 {
+  background-color: blueviolet;
+}
+.el2 {
+  background-color: orangered;
+}
+.el3 {
+  background-color: green;
+  height: 150px;
+}
+.el4 {
+  background-color: goldenrod;
+}
+.el5 {
+  background-color: palevioletred;
+}
+.el6 {
+  background-color: steelblue;
+}
+.el7 {
+  background-color: yellow;
+}
+.el8 {
+  background-color: crimson;
+}
+
+.container {
+  /* STARTER */
+  font-family: sans-serif;
+  background-color: #ddd;
+  font-size: 40px;
+  margin: 40px;
+
+  /* FLEXBOX */
+}

@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
 import "./summary.css";
-import Footer from "../../components/footer/footer";
 
 function Summary() {
   return (
@@ -24,6 +23,12 @@ function Summary() {
             <Link to="/box-model">
               Learn more about border, margin and padding in CSS
             </Link>
+          </li>
+          <li>
+            <Link to="/flexbox">Using flexbox to organize your page</Link>
+          </li>
+          <li>
+            <Link to="/flexbox-practice">Page with flexbox exercise</Link>
           </li>
         </ul>
       </nav>

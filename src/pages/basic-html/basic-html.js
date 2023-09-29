@@ -8,7 +8,7 @@ function Basic() {
       <header>
         <h1>Basic fundamentals for HTML</h1>
       </header>
-      <article>
+      <article className="html-basic">
         <h2>Head and body tag</h2>
         <p>
           Everything that we see here in the browser is inside of the body tag.
@@ -53,7 +53,7 @@ function Basic() {
             and we should use attributes, like src for the source of the image
             and alt, for an alternative text for the image
           </p>
-          <img src={image} alt="learn html" width="500" height="200" />
+          <img src={image} alt="learn html" className="html5" />
         </p>
         <h2>Using links</h2>
         <p>
@@ -66,7 +66,7 @@ function Basic() {
           If we have more than one link, we can use the nav tag to keep them all
           together
         </p>
-        <nav>
+        <nav className="navigation">
           <a
             href="https://www.linkedin.com/in/diogoasenjo/"
             target="_blank"
@@ -90,7 +90,7 @@ function Basic() {
           We can use section tags inside of each other, like, we can have a
           header inside of an article tag
         </p>
-        <ul>
+        <ul className="divs">
           <li>nav tag for links</li>
           <li>header for the top of the section</li>
           <li>footer for the bottom of the page</li>

@@ -10,11 +10,11 @@ import "./intro-css.css";
 
 function IntroCSS() {
   return (
-    <div className="intro-css">
+    <div>
       <header>
         <h1>Basic knowledge for CSS</h1>
       </header>
-      <article>
+      <article className="intro-css">
         <p>
           CSS, Cascading Style Sheets, is what gives out HTML page style! But
           how we do it?

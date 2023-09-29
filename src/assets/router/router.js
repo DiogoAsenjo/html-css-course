@@ -6,6 +6,8 @@ import IntroCSS from "../../pages/intro-css/intro-css";
 import CSSText from "../../pages/css-text/css-text";
 import CSSColors from "../../pages/css-colors/css-colors";
 import BoxModel from "../../pages/box-model/box-model";
+import Flexbox from "../../pages/flexbox/flexbox";
+import FlexboxPractice from "../../pages/flexbox-in-practice/flexbox-in-practice";
 
 const Router = () => {
   return (
@@ -18,6 +20,8 @@ const Router = () => {
         <Route path="/css-text" element={<CSSText />} />
         <Route path="/css-colors" element={<CSSColors />} />
         <Route path="/box-model" element={<BoxModel />} />
+        <Route path="/flexbox" element={<Flexbox />} />
+        <Route path="/flexbox-practice" element={<FlexboxPractice />} />
       </Routes>
     </HashRouter>
   );

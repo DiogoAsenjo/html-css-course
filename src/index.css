@@ -40,3 +40,7 @@ a:hover {
   font-weight: bold;
   text-decoration: underline;
 }
+
+article {
+  margin: 0 50px;
+}
