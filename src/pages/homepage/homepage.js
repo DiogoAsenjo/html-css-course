@@ -11,7 +11,9 @@ function Homepage() {
         myself at least a junior backend developer, but my frontend abilities
         are grose, so I will create this project to develop my skills!
       </p>
-      <Link to="/summary">Summary</Link>
+      <div className="link">
+        <Link to="/summary">Summary</Link>
+      </div>
     </div>
   );
 }
