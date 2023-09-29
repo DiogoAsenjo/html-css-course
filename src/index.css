@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  background-color: #f5e7ae;
+  background-color: #387d7a;
   font-family: sans-serif;
 }
 
@@ -10,14 +10,14 @@ code {
 }
 
 h1 {
-  color: #496a81;
+  color: #f58a07;
   font-size: 40px;
   text-align: center;
   font-style: italic;
 }
 
 h2 {
-  color: #582707;
+  color: #f9ab55;
   text-align: left;
   margin-left: 40px;
 }
@@ -25,5 +25,18 @@ h2 {
 p {
   text-align: justify;
   line-height: 1.5;
-  color: #444;
+  color: #f7f5fb;
+}
+
+a:link,
+a:visited {
+  color: #c7ef00;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #000;
+  font-weight: bold;
+  text-decoration: underline;
 }

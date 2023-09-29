@@ -1,25 +1,13 @@
 .homepage {
   border: 5px solid #000;
   border-radius: 10px;
-  margin: 180px 150px;
   padding: 30px;
+  width: 500px;
+  margin: 150px auto;
 }
 
 .homepage p {
   text-align: center;
-}
-
-.homepage a:link,
-a:visited {
-  color: #496a81;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-.homepage a:hover {
-  color: #000;
-  font-weight: bold;
-  text-decoration: underline;
 }
 
 .link {
