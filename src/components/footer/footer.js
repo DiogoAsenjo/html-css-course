@@ -2,7 +2,7 @@ import "./footer.css";
 
 function Footer() {
   return (
-    <footer>
+    <footer className="footer">
       This notebook was created by: Diogo Asenjo. You can check the complete
       repo{" "}
       <a

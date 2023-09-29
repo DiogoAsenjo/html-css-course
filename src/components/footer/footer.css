@@ -1,3 +1,9 @@
-footer {
-  background-color: #55b4b0;
+.footer {
+  background-color: #383961;
+  height: 50px;
+  color: #f7f5fb;
+  padding: 15px 0 0 0;
+  text-align: center;
+  position: relative;
+  bottom: 0%;
 }

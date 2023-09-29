@@ -1,6 +1,7 @@
 import properties from "../../assets/images/css-text/properties-text.png";
 import links from "../../assets/images/css-text/links.png";
 import "./css-text.css";
+import Footer from "../../components/footer/footer.js";
 
 function CSSText() {
   return (
@@ -63,6 +64,7 @@ function CSSText() {
           </a>
         </li>
       </ul>
+      <Footer />
     </div>
   );
 }

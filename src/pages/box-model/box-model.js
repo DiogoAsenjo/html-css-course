@@ -3,6 +3,7 @@ import border from "../../assets/images/border-margin-padding/border.png";
 import border2 from "../../assets/images/border-margin-padding/border2.png";
 import border3 from "../../assets/images/border-margin-padding/border3.png";
 import boxModel from "../../assets/images/border-margin-padding/box-model.jfif";
+import Footer from "../../components/footer/footer";
 
 function BoxModel() {
   return (
@@ -91,6 +92,7 @@ function BoxModel() {
         a 40px margin. As you can see, the elements in the second are far away
         from the border, that's because, each one of them have a margin!
       </p>
+      <Footer />
     </div>
   );
 }

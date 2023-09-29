@@ -1,5 +1,6 @@
 import "./css-colors.css";
 import colors from "../../assets/images/css-colors/colors.png";
+import Footer from "../../components/footer/footer";
 
 function CSSColors() {
   return (
@@ -34,6 +35,7 @@ function CSSColors() {
           </li>
         </ul>
       </p>
+      <Footer />
     </div>
   );
 }

@@ -1,11 +1,12 @@
 import { Link } from "react-router-dom";
 import "./summary.css";
+import Footer from "../../components/footer/footer";
 
 function Summary() {
   return (
-    <div>
+    <div className="summary">
       <h1>Here you can check all the topics that I already learned:</h1>
-      <nav>
+      <nav className="summary-link teste">
         <ul>
           <li>
             <Link to="/basic-html">Basic HTML</Link>

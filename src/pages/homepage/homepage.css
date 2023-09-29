@@ -1,4 +1,4 @@
-.homepage {
+.homepage-modal {
   border: 5px solid #000;
   border-radius: 10px;
   padding: 30px;
@@ -6,7 +6,7 @@
   margin: 150px auto;
 }
 
-.homepage p {
+.homepage-modal p {
   text-align: center;
 }
 
