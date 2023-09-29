@@ -20,7 +20,7 @@ function Summary() {
             <Link to="/css-colors">Using CSS to style Colors</Link>
           </li>
           <li>
-            <Link to="/border-margin-padding">
+            <Link to="/box-model">
               Learn more about border, margin and padding in CSS
             </Link>
           </li>

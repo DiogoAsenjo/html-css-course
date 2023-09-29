@@ -1,0 +1,23 @@
+.borderExample {
+  border: 5px solid black;
+}
+
+.paddingExample {
+  border: 5px solid black;
+  padding: 10px;
+}
+
+.marginExample p {
+  border: 1px solid black;
+}
+
+.marginExample2 p {
+  border: 1px solid black;
+  margin: 40px;
+}
+
+.marginExample,
+.marginExample2 {
+  border: 5px solid black;
+  margin: 10px;
+}
