@@ -1,0 +1,13 @@
+.imgFlexbox {
+  display: flex;
+  justify-content: center;
+}
+
+.imgFlexbox,
+.imgF1 {
+  height: 250px;
+}
+
+.imgF3 {
+  height: 300px;
+}

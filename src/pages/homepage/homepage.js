@@ -1,3 +1,4 @@
+import Footer from "../../components/footer/footer";
 import "./homepage.css";
 import { Link } from "react-router-dom";
 
@@ -16,6 +17,7 @@ function Homepage() {
           <Link to="/summary">Summary</Link>
         </div>
       </div>
+      <Footer />
     </main>
   );
 }

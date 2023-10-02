@@ -1,27 +1,37 @@
 .el1 {
   background-color: blueviolet;
 }
+
 .el2 {
   background-color: orangered;
 }
+
 .el3 {
   background-color: green;
   height: 150px;
 }
+
 .el4 {
   background-color: goldenrod;
 }
+
 .el5 {
   background-color: palevioletred;
+  align-self: stretch;
 }
+
 .el6 {
   background-color: steelblue;
+  order: -1;
 }
+
 .el7 {
   background-color: yellow;
 }
+
 .el8 {
   background-color: crimson;
+  align-self: flex-start;
 }
 
 .container {

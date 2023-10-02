@@ -3,7 +3,7 @@ import "./summary.css";
 
 function Summary() {
   return (
-    <div className="summary">
+    <main className="summary">
       <h1>Here you can check all the topics that I already learned:</h1>
       <nav className="summary-link teste">
         <ul>
@@ -32,7 +32,7 @@ function Summary() {
           </li>
         </ul>
       </nav>
-    </div>
+    </main>
   );
 }
 
