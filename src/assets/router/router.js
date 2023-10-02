@@ -8,6 +8,8 @@ import CSSColors from "../../pages/css-colors/css-colors";
 import BoxModel from "../../pages/box-model/box-model";
 import Flexbox from "../../pages/flexbox/flexbox";
 import FlexboxPractice from "../../pages/flexbox-in-practice/flexbox-in-practice";
+import CSSGrid from "../../pages/css-grid/css-grid";
+import CSSGridInPractice from "../../pages/css-grid-in-practice/css-grid-in-practice";
 
 const Router = () => {
   return (
@@ -22,6 +24,8 @@ const Router = () => {
         <Route path="/box-model" element={<BoxModel />} />
         <Route path="/flexbox" element={<Flexbox />} />
         <Route path="/flexbox-practice" element={<FlexboxPractice />} />
+        <Route path="/css-grid" element={<CSSGrid />} />
+        <Route path="/css-grid-exercise" element={<CSSGridInPractice />} />
       </Routes>
     </HashRouter>
   );

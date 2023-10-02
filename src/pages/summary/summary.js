@@ -30,6 +30,12 @@ function Summary() {
           <li>
             <Link to="/flexbox-practice">Page with flexbox exercise</Link>
           </li>
+          <li>
+            <Link to="/css-grid">Learn about CSS Grid</Link>
+          </li>
+          <li>
+            <Link to="/css-grid-exercise">Page with CSS Grid exercise</Link>
+          </li>
         </ul>
       </nav>
     </main>
