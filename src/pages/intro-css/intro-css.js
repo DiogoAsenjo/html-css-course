@@ -29,9 +29,11 @@ function IntroCSS() {
           <br />
           Here are some examples of how we can do it:
         </p>
-        <img src={styleElement} alt="CSS being used with element" />
-        <img src={styleClass} alt="CSS being used with class" />
-        <img src={styleId} alt="CSS being used with id" />
+        <div className="imagesContainer">
+          <img src={styleElement} alt="CSS being used with element" />
+          <img src={styleClass} alt="CSS being used with class" />
+          <img src={styleId} alt="CSS being used with id" />
+        </div>
         <h2>Classes and id's</h2>
         <p>
           We talked about classes, elements and id, but what exactly are these?

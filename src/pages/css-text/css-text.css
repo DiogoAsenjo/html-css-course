@@ -16,3 +16,20 @@
   background-color: black;
   font-style: italic;
 }
+
+.imgLinks,
+.imgText {
+  display: flex;
+  justify-content: center;
+}
+
+.imgText img {
+  height: 300px;
+  width: 450px;
+}
+
+.links {
+  height: 500px;
+  width: 500px;
+  display: flex;
+}

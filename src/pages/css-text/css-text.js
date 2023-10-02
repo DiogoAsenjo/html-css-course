@@ -26,7 +26,9 @@ function CSSText() {
           </a>{" "}
           for more information!
         </p>
-        <img src={properties} alt="Properties for styling text" />
+        <div className="imgText">
+          <img src={properties} alt="Properties for styling text" />
+        </div>
         <p>
           Properties names is really easy to understand, if you understand a
           little bit of English, you will know exactly what each propertie do!
@@ -36,7 +38,10 @@ function CSSText() {
           Just like texts, we can also edit links, for that, we wil use those
           pseudoclasses that we talked before, here's one example:
         </p>
-        <img src={links} alt="Styling links" />
+        <div className="imgLinks">
+          <img src={links} alt="Styling links" className="links" />
+        </div>
+
         <p>
           So, you saw that we can edit a lot of things about links, the style,
           the style after you clicked one time, while the cursor of the mouse is

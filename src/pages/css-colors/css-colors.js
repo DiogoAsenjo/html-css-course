@@ -6,13 +6,15 @@ function CSSColors() {
   return (
     <div>
       <h1>Using colors in CSS!</h1>
-      <article>
+      <article className="colors">
         <p>
           There are multiple ways to use colors in CSS, we can use the name of
           the color, their RGB or, the most commom, their hexadecimal code, I'll
           show and example of every way to use it:
         </p>
-        <img src={colors} alt="Showing how to use colors in CSS" />
+        <div className="imgColors">
+          <img src={colors} alt="Showing how to use colors in CSS" />
+        </div>
         <p>
           Here, all of the examples represents the same color, red. As you start
           doing your own projects, you probably won't know what colors to use,

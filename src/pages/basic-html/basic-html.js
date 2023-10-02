@@ -53,7 +53,9 @@ function Basic() {
             and we should use attributes, like src for the source of the image
             and alt, for an alternative text for the image
           </p>
-          <img src={image} alt="learn html" className="html5" />
+          <div className="html15Image">
+            <img src={image} alt="learn html" className="html5" />
+          </div>
         </p>
         <h2>Using links</h2>
         <p>

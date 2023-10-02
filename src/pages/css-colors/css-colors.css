@@ -1,0 +1,8 @@
+.colors img {
+  height: 400px;
+}
+
+.imgColors {
+  display: flex;
+  justify-content: center;
+}

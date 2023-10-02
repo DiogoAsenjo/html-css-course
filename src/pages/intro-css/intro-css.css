@@ -1,0 +1,8 @@
+.imagesContainer {
+  display: flex;
+  justify-content: space-around;
+}
+
+.intro-css img {
+  height: 200px;
+}
