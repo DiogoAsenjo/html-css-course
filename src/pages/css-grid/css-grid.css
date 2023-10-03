@@ -1,0 +1,15 @@
+.imgGrid,
+.imgGridConcept {
+  display: flex;
+  justify-content: center;
+}
+
+.imgGrid img {
+  height: 300px;
+  width: 600px;
+}
+
+.imgGridConcept img {
+  height: 450px;
+  width: 500px;
+}

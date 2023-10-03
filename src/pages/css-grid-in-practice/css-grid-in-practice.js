@@ -8,10 +8,10 @@ function CSSGridInPractice() {
         <div class="el el--2">(2) and</div>
         <div class="el el--3">(3) CSS</div>
         <div class="el el--4">(4) are</div>
-        <div class="el el--5">(5) amazing</div>
+        {/* <div class="el el--5">(5) amazing</div>
         <div class="el el--6">(6) languages</div>
         <div class="el el--7">(7) to</div>
-        <div class="el el--8">(8) learn</div>
+        <div class="el el--8">(8) learn</div> */}
       </div>
 
       <div class="container--2">

@@ -6,7 +6,7 @@
 }
 .el--3 {
   background-color: green;
-  height: 150px;
+  height: 130px;
 }
 .el--4 {
   background-color: goldenrod;
@@ -32,6 +32,13 @@
   margin: 40px;
 
   /* CSS GRID */
+  /* display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+
+  row-gap: 30px;
+  column-gap: 30px; */
+  display: none;
 }
 
 .container--2 {
@@ -39,10 +46,22 @@
   font-family: sans-serif;
   background-color: black;
   font-size: 40px;
-  margin: 100px;
+  margin: 40px;
 
-  width: 1000px;
+  width: 700px;
   height: 600px;
 
   /* CSS GRID */
+  display: grid;
+  grid-template-columns: 125px 200px 125px;
+  grid-template-rows: 250px 100px;
+  gap: 50px;
+
+  /* Aligning tracks inside the container */
+  justify-content: center;
+  align-content: center;
+
+  /* Aligning items inside of cells */
+  align-items: center;
+  justify-items: center;
 }
